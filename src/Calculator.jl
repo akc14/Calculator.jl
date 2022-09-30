@@ -3,12 +3,13 @@ module Calculator
 
 
 export interest, rate
-export Cash
+export hello
 
-#include("Types.jl")
-using .Types
+include("Types.jl")
 
-Cash = "hello"
+function hello()
+  "hello" 
+end
 
 """
  interest(amount, rate)
